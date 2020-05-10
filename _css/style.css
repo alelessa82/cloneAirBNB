@@ -1,0 +1,99 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+svg{
+    
+    webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    outline: none !important;
+    -webkit-align-items: center !important;
+    align-items: center !important;
+    display: -webkit-box !important;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+    margin-left: 32px;
+    position: relative !important;
+    z-index: 1!important;
+    color: #FF385C !important;
+}
+.logo {
+    color: #FF385C !important;   
+    margin-right:30%;
+    margin-left: -65px;
+    
+
+}
+
+.globe  {
+    color:#FF385C;
+    
+  
+    fill: #FF385C;
+}
+
+.entrar{
+    margin-right:15px;
+    padding:  10px;
+    color: #fff;
+}
+
+.busca{
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top:5%;
+  border: 1px solid #ccc;
+}
+div .buscar{
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.busca {
+    color: #FF385C;
+    font-weight: bold;
+}
+
+.buscar {
+    
+    color: #fff;
+    background-color:#FF385C ;
+    font-weight: bold;
+}
+
+.buscar ion-icon{
+    margin-right: 10px;
+    margin-top: 3%;;
+}
+
+@media (max-width: 575.98px) {
+
+.busca{
+    margin-top: 15%;
+    
+   
+}
+.busca input{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
